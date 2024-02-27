@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'KR_1';
+    src: url('./korean.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'KR_2';
+    src: url('./NanumSquareNeo-aLt.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'KR_3';
+    src: url('./NanumSquareNeo-bRg.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'KR_4';
+    src: url('./NanumSquareNeo-cBd.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'KR_5';
+    src: url('./NanumSquareNeo-dEb.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'KR_6';
+    src: url('./NanumSquareNeo-eHv.ttf') format('truetype');
+}

@@ -35,15 +35,28 @@ export default function NavBar(props) {
         alignItems: 'center'
         // etc
     };
-    const linkImageStyle = {
-        width: '50px',
+    const linkStyle = {
+        // font
+        fontFamily: 'KR_6',
+        fontSize: '1.25rem',
+        textDecoration: 'none', // Remove underline
+        color: '#313131',
+        // display
+        display: 'flex',
+        justifyContent: 'flex-left',
+        alignItems: 'center',
+        // etc
+        width: '500px',
         height: '50px'
         // filter: 'brightness(0) invert(1)', // Apply filter to invert colors
+    };
+    const linkImageStyle = {
+        marginRight: '20px' 
     };
     const bottomStyle = {
         borderBottom: '1px solid black', /* Adjust the thickness of the bar */
         margin: '0', /* Remove default margin */
-    }
+    };
 
     // RETURN
     return (
@@ -51,11 +64,12 @@ export default function NavBar(props) {
         <div style={bottomStyle}>
             <Navbar style={navbarStyle}>
                 <Container style={logoSepStyle}>
-                    <Nav.Link style={linkImageStyle} href="home"><img
+                    <Nav.Link style={linkStyle} href="home"><img
                             alt="Home"
                             src={logo}
                             width="50"
-                            height="50"/></Nav.Link>
+                            height="50"
+                            style={linkImageStyle}/>사과자리</Nav.Link>
                     <Container style={itemSepStyle}>
                         <NavBarButton to='/contact' title={'Contact'}/>
                         <NavBarButton to='/about' title={'About'}/>

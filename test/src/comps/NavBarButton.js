@@ -20,7 +20,7 @@ export default function NavBarButton(props) {
     display: 'flex',
     alignItems: 'center',
     // etc
-    border: 'none',
+    border: '1px solid black',
     borderRadius: '15px',
     textDecoration: 'none', // Remove underline
     background: isHovered ? '#313131' : 'transparent',
@@ -28,10 +28,15 @@ export default function NavBarButton(props) {
   const linkStyle = {
     // layout
     // font
+    fontFamily: 'KR_6',
+    fontSize: '1rem',
+    color: isHovered ? 'white' : '#313131',
     // display
+    display: 'flex',
+    alignItems: 'center',
     // etc
     textDecoration: 'none', // Remove underline
-    color: isHovered ? 'white' : '#313131', // Use the default text color
+    color: isHovered ? 'white' : '#313131', // Use the default text colortest
   };
 
   if (props.external) {

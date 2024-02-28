@@ -36,7 +36,7 @@ const navbarStyle = {
     // layout
     background: '#502611',
     margin: '0',
-    paddingTop: '4vh',
+    paddingTop: '6vh',
     paddingBottom: '6vh',
 }
 

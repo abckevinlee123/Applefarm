@@ -7,7 +7,7 @@ export default function VideoPlayer(props) {
     // Video will always be 2/3 the screen size, centered in the middle
     // Video changes are determined by:
     // Whether the window is changing vertically (make the video smaller in height) or horizontally (make the video smaller in width)
-    height: (props.height*.90),
+    height: (props.height*.85),
     };
 
   return (

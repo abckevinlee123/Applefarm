@@ -14,7 +14,6 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route index elemenet={<Intro/>} />
           <Route path="/home" element={<Intro/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/family" element={<Family/>} />
@@ -22,7 +21,6 @@ function App() {
           <Route path="/product" element={<Product/>} />
           <Route path="*" element={<NoPage/>} />
         </Routes>
-        <Navigate to="/home" />
         <Footer/>
       </BrowserRouter>
     </>

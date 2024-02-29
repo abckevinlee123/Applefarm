@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Intro from './pages/Intro'
 import Contact from './pages/Contact'
 import About from './pages/About'
@@ -22,6 +22,7 @@ function App() {
           <Route path="/product" element={<Product/>} />
           <Route path="*" element={<NoPage/>} />
         </Routes>
+        <Navigate to="/home" />
         <Footer/>
       </BrowserRouter>
     </>

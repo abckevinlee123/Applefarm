@@ -4,7 +4,7 @@ export default function About() {
     const h1 = {
         // font
         fontFamily: 'KR_6',
-        fontSize: '4rem',
+        fontSize: '3rem',
         color: 'black',
       
         // display
@@ -30,7 +30,17 @@ export default function About() {
         <>
             <Container style={containStyle}>
                 <h1 style={h1}>About</h1>
-                <p style={p}>We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) We are saguazari :) </p>
+                <p style={p}>사과는 사과나무(Malus spp., 그중에는 국내산 사과 또는 과수원 사과, Malus Domestica)에서 생산되는 둥근 식용 과일입니다. 사과나무는 전 세계적으로 재배되며 Malus 속에서 가장 널리 재배되는 종입니다. 이 나무는 야생 조상인 Malus sieversii가 여전히 발견되는 중앙아시아가 원산지입니다. 사과는 아시아와 유럽에서 수천 년 동안 재배되어 왔으며 유럽 식민지 개척자들에 의해 북미로 소개되었습니다. 사과는 북유럽, 그리스, 유럽의 기독교 전통을 포함한 많은 문화에서 종교적, 신화적 의미를 가지고 있습니다.
+
+씨앗에서 자란 사과는 부모의 사과와 매우 다른 경향이 있으며, 결과 과일에는 원하는 특성이 부족한 경우가 많습니다. 식물학적 평가를 포함한 상업적 목적을 위해 사과 품종은 대목에 클론 접목을 통해 번식됩니다. 대목 없이 자란 사과나무는 심은 후 더 크고 열매를 맺는 속도가 훨씬 느린 경향이 있습니다. 대목은 성장 속도와 결과 나무의 크기를 제어하여 수확을 더 쉽게 하는 데 사용됩니다.
+
+사과 품종은 7,500가지가 넘습니다.[3] 요리, 생으로 먹기, 사이다 또는 사과 주스 생산 등 다양한 맛과 용도에 맞게 다양한 품종이 사육됩니다. 나무와 과일은 곰팡이, 박테리아, 해충 문제에 취약하며, 이는 다양한 유기 및 비유기 수단으로 통제할 수 있습니다. 2010년에는 사과 생산의 질병 통제 및 선택적 육종에 대한 연구의 일환으로 과일의 게놈 서열이 밝혀졌습니다.
+
+2021년 전 세계 사과 생산량은 9,300만 톤으로, 중국이 전체 생산량의 거의 절반을 차지했습니다. 사과는 낙엽교목으로 일반적으로 재배 시 키가 2~4.5m(6~15피트), 야생에서는 최대 9m(30피트)까지 자랍니다. 재배시 대목선별과 가지치기 방법에 따라 크기, 모양, 가지밀도가 결정된다. 잎은 짙은 녹색의 단순한 타원형으로 번갈아 배열되며 가장자리는 톱니 모양이고 밑면은 약간 솜털 모양입니다.
+
+꽃은 봄에 잎이 싹트는 것과 동시에 생성되며 박차와 일부 긴 새싹에서 생성됩니다. 3~4센티미터(1~1+1⁄2인치)의 꽃은 흰색이고 분홍색을 띠다가 점차 희미해지며 꽃잎은 5개이고 꽃차례는 4~6개의 꽃이 있는 취산꽃차례로 구성됩니다. 꽃차례의 중앙 꽃은 "왕 꽃"이라고 불립니다. 먼저 열리고 더 큰 열매가 맺힐 수 있습니다.[7][8]
+
+열매는 늦여름이나 가을에 익는 이과로 품종은 크기가 다양하다. 상업적 재배자들은 시장 선호도에 따라 직경이 7~8.5cm(2+3⁄4~3+1⁄4인치)인 사과를 생산하는 것을 목표로 합니다. 특히 일본의 일부 소비자는 더 큰 사과를 선호하는 반면, 크기가 5.5cm(2+1⁄4인치) 미만인 사과는 일반적으로 주스로 사용되며 신선한 시장 가치가 거의 없습니다.</p>
             </Container>
         </>
     )

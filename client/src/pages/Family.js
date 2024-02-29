@@ -1,18 +1,22 @@
 import {Container} from 'react-bootstrap';
-import Carousel from 'react-bootstrap/Carousel';
-import NavBar from "../comps/NavBar";
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import Showcase from '../comps/Showcase'
+import one from '../other/1.jpg'
+import two from '../other/2.jpg'
+import three from '../other/3.jpg'
+import four from '../other/4.jpg'
+import five from '../other/5.jpg'
+import six from '../other/6.jpg'
 
 export default function Family() {
-    const carousel = {
-        background: 'grey',
-        height: '50vh'
+    const containStyle = {
+        marginLeft: '8vw',
+        marginRight: '8vw',
     };
     const h1 = {
         // font
+        paddingBottom: '3vh',
         fontFamily: 'KR_6',
-        fontSize: '4rem',
+        fontSize: '3rem',
         color: 'black',
       
         // display
@@ -32,21 +36,15 @@ export default function Family() {
 
     return (
         <>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
-
-            <Carousel style={carousel}>
-
-            </Carousel>
+            <Container style={containStyle}>
+                <h1 style={h1}>우리 가족</h1>
+                <Showcase width='84vw' image={one} person='사과자리'/>
+                <Showcase width='84vw' flip='true' image={two} person='사과자리' />
+                <Showcase width='84vw' image={three}  person='사과자리' />
+                <Showcase width='84vw' flip='true' image={four} person='사과자리' />
+                <Showcase width='84vw' image={five} person='사과자리' />
+                <Showcase width='84vw' flip='true' image={six} person='사과자리' />
+            </Container>
         </>
     )
 }

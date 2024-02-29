@@ -1,6 +1,6 @@
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import NavBarButton from './NavBarButton'
-import logo from '../other/Temp.png';
+import apple from '../other/Apple.gif';
 import '../fonts/Fonts.css';
 
 export default function NavBar(props) {
@@ -66,16 +66,16 @@ export default function NavBar(props) {
                 <Container style={logoSepStyle}>
                     <Nav.Link style={linkStyle} href="home"><img
                             alt="Home"
-                            src={logo}
+                            src={apple}
                             width="50"
                             height="50"
                             style={linkImageStyle}/>사과자리</Nav.Link>
                     <Container style={itemSepStyle}>
-                        <NavBarButton to='/contact' title={'Contact'}/>
+                        {/* <NavBarButton to='/contact' title={'Contact'}/> */}
                         <NavBarButton to='/about' title={'About'}/>
-                        <NavBarButton to='/family' title={'Family'}/>
-                        <NavBarButton to='/product' title={'Product'}/>
-                        <NavBarButton external={true} to='https://smartstore.naver.com/saguazari/' title={'Store'}/>
+                        <NavBarButton to='/family' title={'가족'}/>
+                        <NavBarButton to='/product' title={'상품'}/>
+                        <NavBarButton external={true} to='https://smartstore.naver.com/saguazari/' title={'쇼핑몰'}/>
                     </Container>
                 </Container>
             </Navbar>

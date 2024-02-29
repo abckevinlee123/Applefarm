@@ -36,7 +36,7 @@ const navbarStyle = {
     // layout
     background: '#502611',
     margin: '0',
-    paddingTop: '6vh',
+    paddingTop: '7vh',
     paddingBottom: '6vh',
 }
 
@@ -53,7 +53,7 @@ const containerStyle = {
 const navBrandStyle = {
     // font
     fontFamily: 'KR_6',
-    fontSize: '.85rem',
+    fontSize: '1rem',
     color: 'white',
     // display
     // etc

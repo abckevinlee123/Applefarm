@@ -46,7 +46,7 @@ export default function NavBarButton(props) {
           style={buttonStyle}
           onMouseOver={() => setIsHovered(true)}
           onMouseOut={() => setIsHovered(false)}
-          href={props.to}><Link style={linkStyle}>{props.title}</Link></Button>
+          href={props.to}><div style={linkStyle}>{props.title}</div></Button>
       </>
     );
   } else {

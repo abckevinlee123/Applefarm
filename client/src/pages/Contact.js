@@ -8,7 +8,7 @@ export default function Contact() {
     const h1 = {
         // font
         fontFamily: 'KR_6',
-        fontSize: '4rem',
+        fontSize: '3rem',
         color: 'black',
       
         // display
